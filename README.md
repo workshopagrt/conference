@@ -1,2 +1,2 @@
-# conference
-conference website
+# Conference
+Conference website
