@@ -67,3 +67,90 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
+/* 导航栏样式 */
+.navbar {
+    background: #007BFF;
+    color: white;
+    padding: 1px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+    /* Hover 效果 */
+}
+
+/* 页面内容样式调整 */
+header,
+section,
+footer {
+    margin-top: 50px;
+    /* 为导航栏留出空间 */
+}
+
+/* 日程安排容器 */
+.schedule-container {
+    margin-top: 20px;
+}
+
+.day {
+    margin-bottom: 30px;
+}
+
+.day h3 {
+    font-size: 1.2em;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.session {
+    margin-bottom: 15px;
+}
+
+.session h4 {
+    font-size: 1.0em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.session ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.session li {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+.session strong {
+    color: #007BFF;
+}
