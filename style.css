@@ -7,8 +7,6 @@ body {
     /* 水平居中 */
     align-items: center;
     /* 垂直居中 */
-    min-height: 100vh;
-    /* 让 body 占满整个视口高度 */
     background-color: #f9f9f9;
     /* 背景颜色 */
     font-family: Arial, sans-serif;
