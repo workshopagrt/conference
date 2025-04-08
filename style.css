@@ -12,13 +12,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-img {
-    max-width: 100%;
-    /* 图片宽度不超过父容器 */
-    height: auto;
-    /* 保持宽高比例 */
-}
-
 .container {
     width: 90%;
     margin: 0 auto;
@@ -209,13 +202,22 @@ footer {
 }
 
 /* 表格样式 */
+.schedule-table-container {
+    overflow: auto;
+    /* 允许水平滚动 */
+    width: 100%;
+    /* 容器宽度占满父元素 */
+    max-width: 800px;
+    padding: 2vw;
+    margin-top: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 添加阴影效果 */
+}
+
 .schedule-table {
     width: 100%;
     border-collapse: collapse;
-    /* 合并边框 */
-    margin-top: 20px;
-    overflow-x: auto;
-        /* 允许水平滚动 */
+    margin-top: 5px;
 }
 
 .schedule-table th,
@@ -266,10 +268,5 @@ footer {
         padding: 5px;
         /* 减小内边距 */
     }
-}
-
-.schedule-table-container {
-    overflow-x: auto;
-    /* 允许水平滚动 */
 }
 
