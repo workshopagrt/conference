@@ -206,8 +206,8 @@ footer {
     /* 允许水平滚动 */
     width: 100%;
     /* 容器宽度占满父元素 */
-    max-width: 800px;
-    padding: 2vw;
+    max-width: 60vw;
+    padding: 2em;
     margin-top: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* 添加阴影效果 */
