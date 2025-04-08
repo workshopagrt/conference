@@ -11,7 +11,8 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
+    padding: 20px;
 }
 
 header {
@@ -194,3 +195,72 @@ footer {
         /* 超小屏幕每行显示 1 个卡片 */
     }
 }
+
+/* 表格样式 */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* 合并边框 */
+    margin-top: 20px;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #ddd;
+    /* 边框颜色 */
+    padding: 10px;
+    text-align: left;
+}
+
+.schedule-table th {
+    background-color: #007BFF;
+    /* 表头背景色 */
+    color: white;
+    font-weight: bold;
+}
+
+.schedule-table td ul {
+    list-style-type: none;
+    /* 移除列表符号 */
+    padding: 0;
+    margin: 0;
+}
+
+.schedule-table td li {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* 偶数行背景色 */
+}
+
+.schedule-table tr:hover {
+    background-color: #f1f1f1;
+    /* 鼠标悬停时的背景色 */
+}
+
+@media (max-width: 768px) {
+    .schedule-table {
+        font-size: 14px;
+        /* 减小字体大小 */
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+        padding: 5px;
+        /* 减小内边距 */
+    }
+}
+
+.schedule-table-container {
+    overflow-x: auto;
+    /* 允许水平滚动 */
+}
+
+.schedule-table {
+    min-width: 800px;
+    /* 设置最小宽度 */
+}
+
