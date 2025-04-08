@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    position: fixed;
+    position: absolute;
     justify-content: center;
     /* 水平居中 */
     align-items: center;
