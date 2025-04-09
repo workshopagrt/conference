@@ -162,7 +162,9 @@ footer {
 .participant-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 0em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     justify-content: center;
     /* 水平居中 */
     align-items: center;
@@ -171,11 +173,9 @@ footer {
 
 .participant {
     background: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: calc(33% - 20px);
-    /* 每行显示 3 个卡片 */
+    padding: 0.1em;
+    border-radius: 0.1em;
+    width: calc(99% - 20px);
 }
 
 .participant h3 {
