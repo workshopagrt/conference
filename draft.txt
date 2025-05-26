@@ -285,3 +285,84 @@
             </table>
         </div>
     </section>
+
+#############################chair
+                        <tr>
+                            <td style="white-space: nowrap;">Chair</td>
+                            <td>
+                                <ul>
+                                    <li>Linyu Peng</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Ruiao Hu</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Sikarin Yoo-Kong</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Tao Zheng</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Yueqi Cao</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+<tr>
+                            <td style="white-space: nowrap;">Chair</td>
+                            <td>
+                                <ul>
+                                    <li>Yaqing Liu</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Sehun Chun</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Erchuan Zhang</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Fan Liu</li>
+                                </ul>
+                            </td>
+                            <td></td>
+                        </tr>
+
+
+                        <tr>
+                            <td style="white-space: nowrap;">Chair</td>
+                            <td>
+                                <ul>
+                                    <li>Yaqing Liu</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Shihui Ying</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Erchuan Zhang</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Fan Liu</li>
+                                </ul>
+                            </td>
+                            <td></td>
+                        </tr>
