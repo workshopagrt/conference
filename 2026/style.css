@@ -1,0 +1,273 @@
+/* 全局样式 */
+body {
+    margin-top: 0vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 0vw;
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    background-color: #f9f9f9;
+    /* 背景颜色 */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px;
+    overflow: auto;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* 导航栏样式 */
+.navbar {
+    background: #007BFF;
+    color: white;
+    padding: 1px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+    /* Hover 效果 */
+}
+
+/* 页面内容样式调整 */
+header,
+section,
+footer {
+    margin-top: 20px;
+    /* 为导航栏留出空间 */
+}
+
+/* 日程安排容器 */
+.schedule-container {
+    margin-top: 20px;
+}
+
+.day {
+    margin-bottom: 30px;
+}
+
+.day h3 {
+    font-size: 1.2em;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.session {
+    margin-bottom: 15px;
+}
+
+.session h4 {
+    font-size: 1.0em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.session ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.session li {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+.session strong {
+    color: #007BFF;
+}
+
+/* 参与人员列表样式 */
+.participant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+}
+
+.participant {
+    background: white;
+    padding: 0.1em;
+    border-radius: 0.1em;
+    width: calc(99% - 20px);
+}
+
+.participant h3 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.participant p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .participant {
+        width: calc(50% - 20px);
+        /* 小屏幕每行显示 2 个卡片 */
+    }
+}
+
+@media (max-width: 480px) {
+    .participant {
+        width: 100%;
+        /* 超小屏幕每行显示 1 个卡片 */
+    }
+}
+
+/* 表格样式 */
+.schedule-table-container {
+    overflow: auto;
+    /* 允许水平滚动 */
+    width: 100%;
+    /* 容器宽度占满父元素 */
+    max-width: 80vw;
+    padding: 1vw;
+    margin-top: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 添加阴影效果 */
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #ddd;
+    /* 边框颜色 */
+    padding: 10px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #007BFF;
+    /* 表头背景色 */
+    color: white;
+    font-weight: bold;
+}
+
+.schedule-table td ul {
+    list-style-type: none;
+    /* 移除列表符号 */
+    padding: 0;
+    margin: 0;
+}
+
+.schedule-table td li {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* 偶数行背景色 */
+}
+
+.schedule-table tr:hover {
+    background-color: #f1f1f1;
+    /* 鼠标悬停时的背景色 */
+}
+
+@media (max-width: 768px) {
+    .schedule-table {
+        font-size: 14px;
+        /* 减小字体大小 */
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+        padding: 5px;
+        /* 减小内边距 */
+    }
+}
+
